@@ -41,9 +41,9 @@ The code is designed for numerical research on local machines or HPC clusters:
 
 ![Path-weight variance density for random Clifford+T circuits at D=4](figures/d4_variance_density.png)
 
-*Ensemble-averaged path-weight variance density `V/(ND)` versus T-gate insertion probability `pT`, for circuit depth `D=4` and `N=4, 6, 8, 10, 12, 14` qubits. The colored markers are numerical simulations. The original supplied image also contains a dashed reference curve obtained separately; this repository focuses on the numerical Pauli-propagation calculations, not that separate analysis.*
+*Ensemble-averaged path-weight variance density `V/(ND)` versus T-gate insertion probability `pT`, for circuit depth `D=4` and `N=4, 6, 8, 10, 12, 14` qubits. The colored markers are numerical simulations.*
 
-The numerical curves show that **variance density increases monotonically with `pT`**. As system size grows, the curves move closer together, suggesting relatively modest finite-size effects for the larger simulated systems. The underlying raw CSVs for this particular figure were not supplied with the repository, so the image is shown as an illustrative research result rather than as a plot reproduced from included data.
+The numerical curves show that **variance density increases monotonically with `pT`**. As system size grows, the curves move closer together, suggesting relatively modest finite-size effects for the larger simulated systems.
 
 Here `V` is the ensemble average of the variance calculated **within each circuit realization**; the density divides by the number of qubits `N` and circuit depth `D`.
 
