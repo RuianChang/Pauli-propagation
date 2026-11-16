@@ -1,0 +1,12 @@
+name = "PauliPathMomentPropagation"
+uuid = "c4a8ce81-51ac-42f8-ae18-34f9813c3da6"
+authors = ["Rui-An Chang"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+PauliPropagation = "293282d5-3c99-4fb6-92d0-fd3280a19750"
+
+[compat]
+julia = "1.10"
