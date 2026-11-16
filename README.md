@@ -124,9 +124,3 @@ The simulation builds on the open-source **[PauliPropagation.jl](https://github.
 > M. S. Rudolph, T. Jones, Y. Teng, A. Angrisani, and Z. Holmes, *Pauli Propagation: A Computational Framework for Simulating Quantum Systems*, **PRX Quantum 7**, 032001 (2026). [DOI](https://doi.org/10.1103/6vd7-l9bn) · [arXiv](https://arxiv.org/abs/2505.21606)
 
 The additional moment-tracking algorithm, ensemble workflow, and numerical application to accumulated Pauli-path weight variance are part of this research repository.
-
-## 📝 Notes
-
-- This repository demonstrates numerical methods for operator spreading, **not** a complete quantum error correction decoder or resource-estimation pipeline.
-- The simulation was originally developed as a research code. Verify results and package compatibility locally before treating it as a maintained software release.
-- Julia execution could not be tested in the packaging environment; a small local smoke test is recommended before publication.
