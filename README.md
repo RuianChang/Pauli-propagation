@@ -12,7 +12,7 @@ As a Pauli operator evolves through a quantum circuit, it can spread to more qub
 
 The **weight** of a Pauli string is simply the number of qubits on which it acts nontrivially. For each Pauli path, we add this weight across successive circuit layers to obtain its **total accumulated weight**. Different paths can accumulate different weights; the **variance of the total accumulated weight** measures how much these paths differ in their spreading histories. Our calculations use the corresponding squared path amplitudes as statistical weights.
 
-Our central question is whether operator spreading in **non-Clifford circuits** can be quantitatively related to **T-gate density**, a simple measure of the non-Clifford resources introduced into the circuit. We find that the averaged path-weight variance **increases monotonically with T-gate insertion probability** in the studied circuit ensemble. This provides a useful numerical direction for exploring connections among operator dynamics, quantum magic, and quantum resource estimation. The observable is **not** itself a direct estimate of fault-tolerant resource overhead.
+Our central question is whether operator spreading in **non-Clifford circuits** can be quantitatively related to **T-gate density**, a simple measure of the non-Clifford resources introduced into the circuit. We find that the averaged path-weight variance **increases monotonically with T-gate insertion probability** in the studied circuit ensemble. This provides a useful numerical direction for exploring connections among operator dynamics, quantum magic, and quantum resource estimation.
 
 ## ⚙️ Numerical Method
 
